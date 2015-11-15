@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+    font
+}
+.title {
+    text-align: center;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+.subheading {
+    text-align: center;
+    color:white;
+    font-family: "Courier New", Courier, monospace;
+    height: 90px;
+    line-height: 600px;
+}

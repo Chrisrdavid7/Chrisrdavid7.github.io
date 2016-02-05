@@ -8,7 +8,7 @@ $(function () {
     }, 0);
 
     var characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.split('');
-    var stricte = 'chris'.split('');
+    var stricte = 'stricte'.split('');
 
     var loader = $('#brand');
 

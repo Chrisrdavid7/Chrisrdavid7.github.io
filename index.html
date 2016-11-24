@@ -1,172 +1,645 @@
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Chris David</title>
-
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-        <meta name="author" content="Chris David">
-        <meta name="description" content="Personal website of Chris David, iOS Developer">
-        <meta name="keywords" content="Junior Developer, Software Engineer, iOS developer, Marketing Genius">
-
-        <meta property="og:title" content="Chris David | Software Engineer">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="http://stricte.io/">
-        <meta property="og:image" content="http://stricte.io/assets/brand_logo.png">
-        <meta property="og:description" content="Personal website of Chris David, Software Engineer">
-
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="stricte.io">
-        <meta name="twitter:title" content="stricte | code excellence strictly speaking">
-        <meta name="twitter:description" content="Personal website of Chris David, Software Engineer">
-        <meta name="twitter:creator" content="stricte">
-        <meta name="twitter:image:src" content="http://stricte.io/assets/brand_logo.png">
-
-        <link href="http://stricte.io/styles/initial-styles.css?ver=1.5" rel="stylesheet" property="stylesheet"/>
-
-        <link href="https://fonts.googleapis.com/css?family=Cardo|Oswald|Unica+One|Josefin+Sans|Exo" rel="stylesheet" type="text/css">
-
-        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
-        <div id="bg"></div>
-        <div id="bg-mask"></div>
-
-        <nav>
-            <div id="nav-menu">
-                <ul>
-                    <li data-menuanchor="hello">
-                        <a href="#hello"><span>hello</span></a>
-                    </li>
-                    <li data-menuanchor="work">
-                        <a href="#work"><span>work</span></a>
-                    </li>
-                    <li data-menuanchor="contact">
-                        <a href="#contact"><span>contact</span></a>
-                    </li>
-                </ul>
+<!-- RD Navbar Simple submenu--><!DOCTYPE html>
+<html lang="en" class="wide wow-animation smoothscroll scrollTo">
+  <head>
+    <!-- Site Title-->
+    <title>The Reading Room</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="Intense Restaurant">
+    <meta name="date" content="Apr 25">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script:700%7CRaleway:300,400,600,700,900">
+    <link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Head-->
+      <header class="page-head slider-menu-position">
+        <!-- RD Navbar Transparent-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                <!--Navbar Brand-->
+                <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='65' height='75' src='images/logo.jpg' alt=''/><span class="rd-navbar-brand-slogan font-accent text-bold text-white"></span></a></div>
+              </div>
+              <div class="rd-navbar-menu-wrap">
+                <div class="rd-navbar-nav-wrap">
+                  <div class="rd-navbar-mobile-scroll">
+                    <!--Navbar Brand Mobile-->
+                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images/logo.png' alt=''/></a></div>
+                    <div class="form-search-wrap">
+                      <form action="search-results.html" method="GET" class="form-search">
+                        <div class="form-group">
+                          <label for="rd-navbar-form-search-widget" class="form-label form-search-label form-label-sm">Search</label>
+                          <input id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off" class="form-search-input input-sm form-control form-control-gray-lightest input-sm"/>
+                        </div>
+                        <button type="submit" class="form-search-submit"><span class="mdi mdi-magnify"></span></button>
+                      </form>
+                    </div>
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="active"><a href="index.html"><span>Home</span></a>
+                      </li>
+                      <li><a href="about.html"><span>About Us</span></a>
+                      </li>
+                      <li><a href="menu.html"><span>Menu</span></a>
+                      </li>
+                      <li><a href="gallery.html"><span>Gallery</span></a>
+                      </li>
+                      
+                      <li><a href="contacts.html"><span>Contacts</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--RD Navbar Search-->
+                <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
+                  <form action="search-results.html" method="GET" class="rd-navbar-search-form search-form-icon-right">
+                    <div class="form-group">
+                      <label for="rd-navbar-search-form-input" class="form-label">Type and hit enter...</label>
+                      <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest"/>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div id="nav-mask"></div>
-            <a id="nav-toggle" class="not-visible"><span></span></a>
-        </nav>
-
-        <div id="particles"></div>
-        <div id="brand"></div> 
-
-        <div id="fullpage" class="not-visible">
-            <section id="hello-page" class="page">
-                <div class="container">
-                    <section class="row">
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h6>Hello_</h6>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h2>My name is Chris, I'm a Software Engineer.</h2>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h4>My passion is delivering efficient,
-                                robust code that helps people make their lives easier, along with meeting their goals. I live in New York and have fun working for
-                                <a target="_blank" href="http://www.devialet.com/">Devialet</a>, where I have the pleasure to work with the best sound system in the world.
-                                You can download
-                                <a target="_blank" href="https://www.linkedin.com/in/chris-david-a747a66a">my resume</a> if you like to.
-                            </h4>
-                        </article>
-                    </section>
-                </div>
-            </section>
-            <section id="work-page" class="page">
-                <div class="container">
-                    <section class="row">
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h6>Work_</h6>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h2 class="special">
-                                During my
-                                <span id="early"></span> years as a professional software engineer
-                                I cut my teeth on a diverse range of programming, starting from Objective-C, through HTML,
-                                Ruby ending on Java.
-                            </h2>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h4>
-                                I started with HTML, which I started studing for miscellianeous intentions. From hacking other peoples information to making 
-                                <strong>Video Games</strong>. I went through
-                                number of web related technologies.
-                                I helped to successfully deploy first version of Face of Mankind. This was an amazing sandbox game that we never really got over the hill. However I used this as my amazing excuse for not having much friends during teenage years.
-                                I also love to work on hardware, like the Apple iPhone Camera along with the Compass. 
-                            </h4>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h4>
-                                In secondary school, I majored in <strong>Sociology</strong>. I wanted to write software that can communicate with anyone. No matter what age and background. I think the possiblilty of making a difference to someone's life no matter their background or community is a pretty sick personal goal not to set... I attended undergrad
-                                <a target="_blank" href="http://www.jjay.cuny.edu/">John Jay</a> College of Criminal Justice,
-                                and
-                                <a target="_blank" href="http://www.nyu.edu/">New York University</a>.
-
-                                During that time I had to do with enormous number of frameworks or tools like,
-                                I've achieved many iOS and innovative certificates and I stay hungry and foolish...
-                            </h4>
-                        </article>
-                    </section>
-                </div>
-            </section>
-            <section id="contact-page" class="page">
-                <div class="container">
-                    <section class="contact row">
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h6>Contact_</h6>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h2 class="special">In case you have a project that you would like to get me involved in
-                                                or you just want to chat about something - drop me a line</h2>
-                            <h2>I'm usually working Monday-Friday. So just shoot me a good old fashion e-mail.</h2>
-                        </article>
-                        <article class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 animated">
-                            <h4 class="special">I am available for freelancing.</h4>
-                            <h4 class="social special">
-                                <a href="mailto:chrisrdavid7@gmail.com"><i class="fa fa-envelope-o fa-1"></i></a>
-                                <a target="_blank" href="https://www.linkedin.com/in/chris-david-a747a66a"><i class="fa fa-linkedin fa-1"></i></a>
-                            </h4>
-                        </article>
-                    </section>
-                </div>
-            </section>
+          </nav>
         </div>
+      </header>
+      <!-- Page Contents-->
+      <main class="page-content">
+        <!--Section Intro-->
+        <section class="context-dark">
+          <div data-on="false" data-md-on="true" class="rd-parallax">
+            <div data-speed="0.45" data-type="media" data-url="images/intro-01-1920x955.jpg" class="rd-parallax-layer"></div>
+            <div data-speed="0.3" data-type="html" data-fade="true" class="rd-parallax-layer">
+              <div class="shell">
+                <div class="section-110 section-cover range range-xs-center range-xs-middle">
+                  <div class="cell-md-8"><img src="images/intro-logo-175x173.png" alt="" width="175" height="173">
+                    <h1 class="font-accent"><span class="big">The Reading Room</span></h1>
+                    <div class="group">
+                      <div class="group-item reveal-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle">19 Bukit Pasoh Rd, Singapore</span>
+                      </div>
+                      <div class="group-item"><span class="icon icon-xxs mdi mdi-clock text-middle"></span> <span class="text-middle">11:00 am - 1:30 am</span>
+                      </div>
+                      <div class="group-item"><span class="icon icon-xxs mdi mdi-phone text-middle"></span> <span class="text-middle">+65 6220 9019</span>
+                      </div>
+                    </div>
+                    <p class="offset-top-24 big veil reveal-sm-block">A space where bookworms and foodies can co-exist in harmony. It’s The Reading Room, an atmospheric café by day and bar by night, located along Bukit Pasoh Road.</p>
+                    <div class="group offset-top-50"><a href="#" data-custom-scroll-to="reserve-now" class="btn btn-lg btn-primary">Make a reservation</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section Welcome-->
+        <section class="section-98 section-md-110">
+          <div class="shell">
+            <div class="range text-lg-left">
+              <div class="cell-sm-preffix-2 cell-sm-8 cell-lg-preffix-0 cell-lg-6 cell-lg-push-6">
+                <div class="shadow-drop-xl">
+                  <!-- Media Elements-->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/A9I66tOqe98?wmode=transparent" class="embed-responsive-item"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="cell-sm-preffix-2 cell-sm-8 cell-lg-preffix-0 cell-lg-6 cell-lg-pull-6 offset-top-30 offset-lg-top-0">
+                <div class="inset-lg-right-20">
+                  <h1><span class="reveal-block font-accent big">Welcome</span><span class="reveal-block offset-top-4 h3 text-light text-uppercase">To Our Restaurant</span></h1>
+                  <hr class="divider hr-lg-left-0 bg-mantis offset-top-30">
+                  <p>Would you like to savor the exquisite cuisine and bring the art of dining to a new level? We obtain the freshest products from reputable purveyors and incorporate them into our exclusive dishes. Our menus are influenced by culinary traditions of Europe, Far East and other parts of the world. We are open to experiments and often add new dishes to our a la carte menu. Our courteous and attentive waiters in smoking jackets will bring you anything you wish.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Section Our Menu-->
+        <section>
+          <div class="context-dark">
+            <!-- RD Parallax-->
+            <div data-on="false" data-md-on="true" class="rd-parallax">
+              <div data-speed="0.35" data-type="media" data-url="images/image-01-1920x963.jpg" class="rd-parallax-layer"></div>
+              <div data-speed="0" data-type="html" class="rd-parallax-layer">
+                <div class="shell section-66 section-sm-110">
+                  <div>
+                    <h1 class="font-accent"><span class="big">Our Menu</span></h1>
+                  </div>
+                  <ul class="list-inline list-inline-mg list-inline-squared h3 text-uppercase text-light offset-top-4 veil reveal-xs-block">
+                    <li>Breakfasts</li>
+                    <li>Lunches</li>
+                    <li>Dinners</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shell-wide section-66">
+            <div class="isotope-wrap">
+              <div class="row">
+                <!-- Isotope Filters-->
+                <div class="col-lg-12">
+                  <div class="isotope-filters isotope-filters-horizontal">
+                    <ul class="list-inline list-inline-sm">
+                      <li class="veil-md">
+                        <p>Choose your category:</p>
+                      </li>
+                      <li class="section-relative">
+                        <button data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true" class="isotope-filters-toggle btn btn-sm btn-default">Filter<span class="caret"></span></button>
+                        <ul id="isotope-1" class="list-sm-inline isotope-filters-list">
+                          <li><a data-isotope-filter="*" data-isotope-group="menu" href="#" class="text-sbold active">All</a></li>
+                          <li><a data-isotope-filter="Cafe" data-isotope-group="menu" href="#" class="text-sbold">Cafe</a></li>
+                          <li><a data-isotope-filter="Food" data-isotope-group="menu" href="#" class="text-sbold">Food</a></li>
+                          <li><a data-isotope-filter="Brunch" data-isotope-group="menu" href="#" class="text-sbold">Brunch</a></li>
+                          <li><a data-isotope-filter="Drinks" data-isotope-group="menu" href="#" class="text-sbold">Drinks</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Isotope Content-->
+                <div class="col-lg-12 offset-top-34">
+                  <div data-isotope-layout="fitRows" data-isotope-group="menu" class="isotope">
+                    <div class="row">
+                      <div data-filter="Cafe" class="col-xs-12 col-md-4 isotope-item">
+                        <div class="inset-md-right-20">
+                          <!-- Pricing Box type 1-->
+                          <ul class="box-pricing box-pricing-type-1 list-unstyled">
+                           
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Cafe Latte</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$5</div>
+                              </div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold"> Himalayan Salt Coffee.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$5</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( Apple, Strawberry, Banana )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Very Berry Smoothie.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$7.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( Apple, Strawberry, Bananas )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Irish Coffee.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$7.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( Orange, Carrot, Apple )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Detox Juice.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$7.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( Orange, Vanilla, Milk )</div>
+                            </li>
 
-        <link href="http://stricte.io/styles/bootstrap.min.css" rel="stylesheet" property="stylesheet"/>
-        <link href="http://stricte.io/styles/jquery.fullPage.min.css" rel="stylesheet" property="stylesheet"/>
-        <link href="http://stricte.io/styles/style.css?ver=3.3" rel="stylesheet" property="stylesheet"/>
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" property="stylesheet"/>
+                           
 
-        <script src="http://stricte.io/js/jquery.min.js"></script>
-        <script src="http://stricte.io/js/jquery.fullPage.min.js"></script>
-        <script src="http://stricte.io/js/particles.min.js"></script>
-        <script src="http://stricte.io/js/jquery.slimscroll.min.js"></script>
-        <script src="http://stricte.io/js/jquery.easings.min.js"></script>
-        <script src="http://stricte.io/js/scripts.js?ver=1.8"></script>
 
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                };
-                i[r].l = 1 * new Date();
-                a = s.createElement(o);
-                m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-69718063-1', 'auto');
-            ga('send', 'pageview');
-
-        </script>
-    </body>
+                          </ul>
+                        </div>
+                      </div>
+                      <div data-filter="Food" class="col-xs-12 col-md-4 isotope-item">
+                        <div class="inset-md-right-20">
+                          <!-- Pricing Box type 1-->
+                          <ul class="box-pricing box-pricing-type-1 list-unstyled">
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">portobello fries</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$13.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( portobello cut and fried in our spiced batter. served with roasted garlic aioli )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Lobster Pasta in White Wine Reduction.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$28.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( whole maine lobster tail poached in butter and white wine, onion, garlic, olive oil )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">truffle pasta</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$28.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( for truffle lovers - sautéed portobello mushrooms, onions, garlic, olive oil, topped with shaved slices of real truffles!! )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Halibut Fish N Chips</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$22.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( our draft beer battered fish served with handcut fries. )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Minute Steak &amp; Fries</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$19</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( 150g new zealand steak topped with homemade café de paris butter, hand-cut fries )</div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div data-filter="Brunch" class="col-xs-12 col-md-4 isotope-item">
+                        <div class="inset-md-right-20">
+                          <!-- Pricing Box type 1-->
+                          <ul class="box-pricing box-pricing-type-1 list-unstyled">
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">The Basics.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$18.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( 2 eggs, sautéed mushrooms, potato rosti, french toast, grilled tomato, choice of bacon, ham or smoked bratwurst change to truffle scrambled eggs: )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Norwegian Royale.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$19.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( smoked salmon, french style scrambled eggs (no milk added), french butter, arugula, on 2 french toasts )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Smashed Banana Pancakes</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$16.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( smashed banana pancakes with caramelized bananas drizzled with our homemade rum caramel sauce )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Burrata French Toasts</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$16.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( french toasts of cinnamon, honey, brown sugar, orange and lemon zest topped with creamy italian burrata, drizzled with our berry sauce  )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Paleo Breakfast</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$22.8</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( 200g grilled salmon filet, poached eggs, wild mushrooms, ikura )</div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div data-filter="Drinks" class="col-xs-12 col-md-4 isotope-item">
+                        <div class="inset-md-right-20">
+                          <!-- Pricing Box type 1-->
+                          <ul class="box-pricing box-pricing-type-1 list-unstyled">
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Kronenbourg Beer on tap.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$11</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( marlborough, new zealand )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Mojito</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$19</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( Mint, Light Rum, Raw Sugar, Lime )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Maeloc Apple Cider</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$15</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( spain )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Bottle of Sauvignon Blanc.</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$88</div>
+                              </div>
+                              <div class="box-pricing-desc text-dark offset-top-10">( marlborough, new zealand )</div>
+                            </li>
+                            <li class="box-pricing-item">
+                              <div class="box-pricing-title big text-uppercase text-spacing-120">
+                                <div class="box-pricing-name text-darker text-bold">Estrella Spanish Beer</div>
+                                <div class="box-pricing-dots"></div>
+                                <div class="box-pricing-price h5 text-bold">$10</div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Section Gallery-->
+        <section>
+          <div class="context-dark">
+            <!-- RD Parallax-->
+            <div data-on="false" data-md-on="true" class="rd-parallax">
+              <div data-speed="0.35" data-type="media" data-url="images/image-02-1920x935.jpg" class="rd-parallax-layer"></div>
+              <div data-speed="0" data-type="html" class="rd-parallax-layer">
+                <div class="shell section-98 section-sm-110">
+                  <div>
+                    <h1 class="font-accent"><span class="big">Our Gallery</span></h1>
+                  </div>
+                  <div class="h3 text-uppercase text-light offset-top-4">Checkout our space</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shell-fluid section-top-66 section-bottom-34">
+            <div class="isotope-wrap">
+              <div class="row">
+                <!-- Isotope Content-->
+                <div class="col-xs-12">
+                  <div data-isotope-layout="masonry" data-isotope-group="gallery" class="isotope">
+                    <div data-photo-swipe-gallery class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="285x285" href="images/image1.jpeg">
+                          <figure><img width="285" height="285" src="images/image1.jpeg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="285x285" href="images/images/image2.jpeg">
+                          <figure><img width="285" height="285" src="images/image2.jpeg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="601x442" href="images/images/image3.jpg">
+                          <figure><img width="601" height="442" src="images/image3.jpg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="600x600" href="images/images/image4.jpg">
+                          <figure><img width="600" height="600" src="images/image4.jpg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="600x600" href="images/images/image5.png">
+                          <figure><img width="600" height="600" src="images/image5.png" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="285x443" href="images/images/image6.jpg">
+                          <figure><img width="285" height="443" src="images/image6.jpg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="285x443" href="images/images/image7.jpg">
+                          <figure><img width="285" height="443" src="images/image7.jpg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="285x285" href="images/image8.jpg">
+                          <figure><img width="285" height="285" src="images/image8.jpg" alt=""/>
+                          </figure></a>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 isotope-item"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="285x285" href="images/image9.jpg">
+                          <figure><img width="285" height="285" src="images/image9.jpg" alt=""/>
+                          </figure></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section Gallery-->
+        
+        <!-- Section Reserve Now-->
+        <section id="reserve-now" class="bg-gray-darkest context-dark section-98 section-110">
+          <div class="shell">
+            <h1><span class="reveal-block font-accent big">Reserve Now</span><span class="reveal-block offset-top-4 h3 text-light text-uppercase">EVERY GUEST IS SPECIAL HERE</span></h1>
+            <hr class="divider bg-mantis offset-top-30">
+            <!-- RD Mailform-->
+            <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform text-left">
+              <div class="range">
+                <div class="cell-lg-3">
+                  <div class="form-group has-feedback">
+                    <label for="form-reserve-name" class="form-label form-label-sm form-label-outside">Name:</label>
+                    <input id="form-reserve-name" type="text" data-constraints="@Required" name="name" class="form-control input-sm"><span aria-hidden="true" class="form-control-feedback mdi mdi-account"></span>
+                  </div>
+                </div>
+                <div class="cell-lg-3">
+                  <div class="form-group has-feedback">
+                    <label for="form-reserve-email" class="form-label form-label-sm form-label-outside">E-Mail:</label>
+                    <input id="form-reserve-email" type="email" data-constraints="@Required" name="email" class="form-control input-sm"><span aria-hidden="true" class="form-control-feedback mdi mdi-telegram"></span>
+                  </div>
+                </div>
+                <div class="cell-lg-2">
+                  <div class="form-group has-feedback">
+                    <label for="form-reserve-date" class="form-label form-label-sm form-label-outside">Date:</label>
+                    <input id="form-reserve-date" type="text" data-constraints="@Required" name="date" class="form-control input-sm"><span aria-hidden="true" class="form-control-feedback mdi mdi-calendar"></span>
+                  </div>
+                </div>
+                <div class="cell-lg-2">
+                  <div class="form-group has-feedback">
+                    <label for="form-reserve-time" class="form-label form-label-sm form-label-outside">Time:</label>
+                    <input id="form-reserve-time" type="time" data-constraints="@Required" name="time" class="form-control input-sm"><span aria-hidden="true" class="form-control-feedback mdi mdi-clock"></span>
+                  </div>
+                </div>
+                <div class="cell-lg-2">
+                  <div class="form-group">
+                    <label for="form-reserve-persons" class="form-label form-label-sm form-label-outside">Persons:</label>
+                    <select id="form-reserve-persons" name="persons" data-minimum-results-for-search="Infinity" class="form-control input-sm">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="group offset-top-20 text-center offset-top-50">
+                <button type="submit" action="mailto:Enquiry@thereadingroom.com.sg" style="padding-left: 30px; padding-right: 30px;" class="btn btn-primary">Make a reservation</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footer-->
+      <!-- Default footer-->
+      <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
+        <div class="shell">
+          <div class="range range-sm-center text-lg-left">
+            <div class="cell-sm-12">
+              <div class="range range-xs-center">
+                <div class="cell-xs-10 cell-sm-6 text-xs-left cell-md-6 cell-lg-4 cell-lg-push-3 cell-md-push-2 cell-lg-preffix-1">
+                  <h6 class="text-uppercase text-spacing-60 text-center text-md-left">Contact us</h6>
+                        <!-- RD Mailform -->
+                        <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform offset-top-34 offset-md-top-0 text-left">
+                          <div class="form-group">
+                            <label for="footer-v2-name" class="form-label form-label-sm">Name:</label>
+                            <input id="footer-v2-name" type="text" name="name" class="form-control input-sm form-control-impressed">
+                          </div>
+                          <div class="form-group offset-top-20">
+                            <label for="footer-v2-email" class="form-label form-label-sm">Your Email*:</label>
+                            <input id="footer-v2-email" type="text" data-constraints="@Required" name="email" class="form-control input-sm form-control-impressed">
+                          </div>
+                          <div class="form-group offset-top-20">
+                            <label for="footer-v2-message" class="form-label form-label-sm">Message*:</label>
+                            <textarea id="footer-v2-message" name="message" data-constraints="@Required" style="height: 80px" class="form-control input-sm form-control-impressed"></textarea>
+                          </div>
+                          <div class="group offset-top-20">
+                            <button type="submit" action="mailto:Enquiry@thereadingroom.com.sg" style="padding-left: 30px; padding-right: 30px;" class="btn btn-sm btn-primary">submit</button>
+                          </div>
+                        </form>
+                </div>
+                <div class="cell-xs-12 offset-top-66 cell-lg-3 cell-lg-push-1 offset-lg-top-0 cell-md-push-3">
+                  <!-- Footer brand-->
+                  <div class="footer-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='200' height='231' src='images/logo.jpg' alt=''/></a></div>
+                  <p class="text-darker offset-top-4">The best lounge, cigars and live music in Singapore</p>
+                  <address class="contact-info offset-top-30 p">
+                    <div>
+                      <dl>
+                        <dt class="text-white">Address:</dt>
+                        <dd class="text-dark reveal-lg-block">19 Bukit Pasoh Road <span class="reveal-lg-block">Singapore </span> <span class="reveal-lg-block">089833.</span></dd>
+                      </dl>
+                    </div>
+                    <div>
+                      <dl class="offset-top-0">
+                        <dt class="text-white">Telephone:</dt>
+                        <dd class="text-dark"><a href="callto:#">+65 6220 9019</a></dd>
+                      </dl>
+                    </div>
+                    <div>
+                      <dl class="offset-top-0">
+                        <dt class="text-white">E-mail:</dt>
+                        <dd class="text-dark"><a href="mailto:#">Enquiry@thereadingroom.com.sg</a></dd>
+                      </dl>
+                    </div>
+                  </address>
+                </div>
+                <div class="cell-xs-10 cell-sm-6 offset-top-66 offset-md-top-0 text-xs-left cell-md-6 cell-lg-4 cell-lg-push-2 cell-md-push-1">
+                  <h6 class="text-uppercase text-spacing-60 text-center text-md-left">What people say</h6>
+                        <!-- Simple quote Slider-->
+                        <div data-items="1" data-nav="false" data-dots="true" class="owl-carousel owl-carousel-classic owl-carousel-class-light owl-carousel-simple-quote">
+                          <div>
+                            <blockquote class="quote quote-simple-2 text-left">
+                              <p class="quote-body offset-bottom-0">
+                                <q>…If books are your cup of tea – they are ours – add The Reading Room on your list of cafes to patronise.</q>
+                              </p>
+                              <h6 class="quote-author text-uppercase text-white">
+                                <cite class="text-normal">- Hungrygowhere.com</cite>
+                              </h6>
+                            </blockquote>
+                          </div>
+                          <div>
+                            <blockquote class="quote quote-simple-2 text-left">
+                              <p class="quote-body offset-bottom-0">
+                                <q>The chairs are comfy, the lighting is good and the music isn’t too distracting. Will definitely keep coming back to this café</q>
+                              </p>
+                              <h6 class="quote-author text-uppercase text-white">
+                                <cite class="text-normal">- Chachic</cite>
+                              </h6>
+                            </blockquote>
+                          </div>
+                          <div>
+                            <blockquote class="quote quote-simple-2 text-left">
+                              <p class="quote-body offset-bottom-0">
+                                <q>If you are around the area, craving for a coffee in the day or a couple of drinks at night, check out The Reading Room.</q>
+                              </p>
+                              <h6 class="quote-author text-uppercase text-white">
+                                <cite class="text-normal">- Metropolitan</cite>
+                              </h6>
+                            </blockquote>
+                          </div>
+                        </div>
+                  <div class="offset-top-34 text-xs-center text-md-left">
+                          <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/TheReadingRoom.com.sg/" class="icon fa fa-facebook icon-xxs icon-circle icon-darkest-filled"></a></li>
+                            <li><a href="#" class="icon fa fa-twitter icon-xxs icon-circle icon-darkest-filled"></a></li>
+                            <li><a href="https://www.google.com.sg/#newwindow=1&safe=off&q=reading+room+singapore&lrd=0x31da196d933eef11:0xd51cbdc3c01f9b88,1," class="icon fa fa-google-plus icon-xxs icon-circle icon-darkest-filled"></a></li>
+                            <li><a href="#" class="icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled"></a></li>
+                          </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shell offset-top-50">
+          <p class="small text-darker">The Reading Room Singapore &copy; <span id="copyright-year"></span> . <a href="privacy.html">Privacy Policy</a>
+            More <a rel="nofollow" href="http://www.thereadingroom.com.sg" target="_blank">The Reading Room Cafe</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+    <!-- Java script-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

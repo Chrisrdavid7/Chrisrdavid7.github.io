@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkchrisrdavid7_github_io"]=self["webpackChunkchrisrdavid7_github_io"]||[]).push([[594],{8594:(e,s,n)=>{n.r(s),n.d(s,{default:()=>c});var t=function(){var e=this,s=e._self._c;e._self._setupProxy;return s("q-page",{staticClass:"flex flex-center"})},r=[];const a={__name:"IndexPage",setup(e){return defineOptions({name:"IndexPage"}),{__sfc:!0}}},u=a;var i=n(1656),l=(0,i.A)(u,t,r,!1,null,null,null);const c=l.exports}}]);
+//# sourceMappingURL=594.3133b74a.js.map
